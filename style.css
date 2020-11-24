@@ -1,0 +1,31 @@
+
+#car{
+    width: 500px;
+    height: 500px;
+}
+
+#front-wheel{
+   animation: rotation .3s infinite linear;
+   transform-origin: 79.9px 163.1px
+}
+
+#back-wheel{
+    animation: rotation .3s infinite linear;
+    transform-origin: 440.7px 163.1px;
+
+}
+
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+  }
+
+
+.st0{fill:#E14B4B;}
+.st1{fill:#2E3235;}
+.st2{fill:#3E4347;}
+.st3{fill:#FFD83B;}
+.st4{fill:#5A5F63;}
+.st5{fill:#CBD6E0;}
+.st6{fill:#939799;}
+.st7{fill:none;stroke:#D1D1D1;stroke-width:2;stroke-miterlimit:10;}
